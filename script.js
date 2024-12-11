@@ -17,7 +17,7 @@ function add(){
 }
 
 taskAdder.addEventListener("click",()=>{
-    bodyOut.innerText="Activities:";
+    
     if(activities.value ==''){
         alert(`empty task cannot be added`);
     }
