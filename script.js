@@ -5,7 +5,7 @@ let taskDelete= document.querySelector("#remove");
 const bodyOut= document.querySelector("ol");
 let counter=0;
 let arr=[];
-bodyOut.innerText="Activities:";
+
 function add(){
     let li= document.createElement("li");
     let del= document.createElement("button");
